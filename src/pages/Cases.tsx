@@ -8,7 +8,7 @@ export function Cases() {
       {/* Banner */}
       <div className="relative h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-sg-blue/80 mix-blend-multiply z-10"></div>
-        <img src="/images/case-banner.jpg" alt="乾安风电场" className="absolute inset-0 w-full h-full object-cover z-0" />
+        <img src="./images/case-banner.jpg" alt="乾安风电场" className="absolute inset-0 w-full h-full object-cover z-0" />
         <div className="relative z-20 max-w-4xl mx-auto px-4 text-center">
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
@@ -88,10 +88,10 @@ export function Cases() {
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {[
-                  { title: "硬件安装图", img: "/images/case-photo-1.jpg" },
-                  { title: "无人机巡检作业图", img: "/images/case-photo-2.jpg" },
-                  { title: "缺陷检测结果图", img: "/images/case-photo-3.jpg" },
-                  { title: "系统后台操作图", img: "/images/case-photo-4.jpg" }
+                  { title: "硬件安装图", img: "./images/case-photo-1.jpg" },
+                  { title: "无人机巡检作业图", img: "./images/case-photo-2.jpg" },
+                  { title: "缺陷检测结果图", img: "./images/case-photo-3.jpg" },
+                  { title: "系统后台操作图", img: "./images/case-photo-4.jpg" }
                 ].map((photo, i) => (
                   <div key={i} className="group relative rounded-xl overflow-hidden shadow-sm border border-slate-200 aspect-[3/4]">
                     <img src={photo.img} alt={photo.title} className="absolute inset-0 w-full h-full object-cover" />

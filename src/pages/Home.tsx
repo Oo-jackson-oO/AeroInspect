@@ -10,7 +10,7 @@ export function Home() {
       <section className="relative h-screen min-h-[600px] max-h-[800px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-sg-blue/70 z-10 mix-blend-multiply"></div>
-          <img src="/images/hero-bg.jpg" alt="Drone Inspection" className="w-full h-full object-cover" />
+          <img src="./images/hero-bg.jpg" alt="Drone Inspection" className="w-full h-full object-cover" />
         </div>
         
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
@@ -84,7 +84,7 @@ export function Home() {
               </div>
               <div className="bg-white rounded-xl shadow-md overflow-hidden">
                 <div className="h-64 relative bg-slate-200">
-                  <img src="/images/home-case.jpg" alt="乾安风电场" className="w-full h-full object-cover" />
+                  <img src="./images/home-case.jpg" alt="乾安风电场" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 flex items-center justify-center">
                      <span className="text-sm font-medium text-slate-500 bg-white/80 px-3 py-1 rounded">乾安风电场实拍图</span>
                   </div>
@@ -121,13 +121,13 @@ export function Home() {
       </section>
 
       {/* Partners Section */}
-      <section className="py-16 bg-white border-t border-slate-100">
+      <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-sm font-bold text-slate-400 tracking-wider uppercase mb-8">合作伙伴</h2>
-          <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-            <img src="/images/partner-1.png" alt="国网" className="h-10 object-contain" />
-            <img src="/images/partner-2.png" alt="大疆" className="h-8 object-contain" />
-            <img src="/images/partner-3.png" alt="英伟达" className="h-10 object-contain" />
+          <h2 className="text-3xl font-bold text-sg-blue mb-16">全球合作伙伴</h2>
+          <div className="flex flex-wrap justify-center items-center gap-16 md:gap-40">
+            <img src="./images/partner-1.png" alt="国网" className="h-32 md:h-48 object-contain hover:scale-105 transition-transform duration-300" />
+            <img src="./images/partner-2.png" alt="大疆" className="h-24 md:h-36 object-contain hover:scale-105 transition-transform duration-300" />
+            <img src="./images/partner-3.png" alt="英伟达" className="h-32 md:h-48 object-contain hover:scale-105 transition-transform duration-300" />
           </div>
         </div>
       </section>

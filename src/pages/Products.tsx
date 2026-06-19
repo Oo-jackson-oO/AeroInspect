@@ -71,9 +71,6 @@ export function Products() {
               {/* Right Image */}
               <div className="bg-slate-100 relative min-h-[400px] flex items-center justify-center">
                  <img src={product.image} alt={product.title} className="absolute inset-0 w-full h-full object-cover" />
-                 <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-sm font-medium text-slate-500 bg-white/80 px-4 py-2 rounded shadow-sm">{product.title} 产品图</span>
-                 </div>
               </div>
             </div>
           </motion.div>

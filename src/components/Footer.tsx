@@ -49,7 +49,7 @@ export function Footer() {
           <div>
             <h3 className="text-slate-900 font-medium mb-4">关注我们</h3>
             <div className="w-24 h-24 bg-white rounded-lg flex items-center justify-center border border-slate-200 overflow-hidden relative">
-              <img src="/images/qrcode.png" alt="微信公众号" className="absolute inset-0 w-full h-full object-cover" />
+              <img src="./images/qrcode.png" alt="微信公众号" className="absolute inset-0 w-full h-full object-cover" />
               <span className="text-xs text-slate-400">二维码</span>
             </div>
           </div>

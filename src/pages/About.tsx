@@ -43,7 +43,7 @@ export function About() {
             </p>
           </div>
           <div className="h-64 lg:h-full bg-slate-100 rounded-xl flex items-center justify-center border border-slate-200 relative overflow-hidden">
-             <img src="/images/about-company.jpg" alt="公司办公大楼" className="absolute inset-0 w-full h-full object-cover" />
+             <img src="./images/about-company.jpg" alt="公司办公大楼" className="absolute inset-0 w-full h-full object-cover" />
              <div className="absolute inset-0 flex items-center justify-center bg-white/20">
                <span className="bg-white/80 px-4 py-2 rounded shadow-sm text-sm font-medium text-slate-500">办公楼/团队照片</span>
              </div>
@@ -101,7 +101,7 @@ export function About() {
           <div className="grid grid-cols-1 lg:grid-cols-5">
             {/* Left Box (Info) */}
             <div className="lg:col-span-2 p-10 md:p-16 text-white relative">
-               <div className="absolute inset-0 bg-[url('/images/contact-bg.jpg')] mix-blend-overlay opacity-20 bg-cover bg-center"></div>
+               <div className="absolute inset-0 bg-[url('./images/contact-bg.jpg')] mix-blend-overlay opacity-20 bg-cover bg-center"></div>
                <div className="relative z-10">
                  <h2 className="text-3xl font-bold mb-8">联系我们</h2>
                  <div className="space-y-8">

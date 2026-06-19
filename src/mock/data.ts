@@ -41,7 +41,7 @@ export const products = [
       { label: 'RTK定位精度', value: '厘米级' }
     ],
     scenarios: ['平原/山地/沿海风场', '极端低温环境风场', '无人值守偏远风场'],
-    image: '/images/product-hardware.jpg'
+    image: './images/product-hardware.jpg'
   },
   {
     id: 'algorithm',
@@ -55,7 +55,7 @@ export const products = [
       { label: '漏检率', value: '<1%' }
     ],
     scenarios: ['风机叶片定期巡检', '缺陷演化跟踪', '事故回溯分析'],
-    image: '/images/product-algorithm.jpg'
+    image: './images/product-algorithm.jpg'
   },
   {
     id: 'system',
@@ -69,7 +69,7 @@ export const products = [
       { label: '访问支持', value: '支持PC/移动端访问' }
     ],
     scenarios: ['风场集中化运维', '跨区域风场统一管理', '运维数据沉淀分析'],
-    image: '/images/product-system.jpg'
+    image: './images/product-system.jpg'
   }
 ];
 
