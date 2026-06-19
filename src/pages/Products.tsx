@@ -69,8 +69,8 @@ export function Products() {
               </div>
 
               {/* Right Image */}
-              <div className="bg-slate-100 relative min-h-[400px] flex items-center justify-center">
-                 <img src={product.image} alt={product.title} className="absolute inset-0 w-full h-full object-cover" />
+              <div className="bg-white relative min-h-[400px] flex items-center justify-center p-8">
+                 <img src={product.image} alt={product.title} className="absolute inset-0 w-full h-full object-contain p-8" />
               </div>
             </div>
           </motion.div>
