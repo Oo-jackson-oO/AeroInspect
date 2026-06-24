@@ -1,6 +1,6 @@
 export const navLinks = [
   { name: '首页', path: '/' },
-  { name: '核心产品', path: '/products' },
+  { name: '业务模式', path: '/products' },
   { name: '成功案例', path: '/cases' },
   { name: '关于我们', path: '/about' },
 ];
@@ -87,7 +87,7 @@ export const caseData = {
 export const qualifications = [
   '2项发明专利受理',
   '2篇EI检索论文发表',
-  '深圳市京立安检测有限公司系统合格检测报告',
-  '国网吉林新能源集团用户使用报告',
-  '天津市科学技术信息研究所查新报告'
+  '某权威机构系统合格检测报告',
+  '航鉴电力典型风电场用户使用报告',
+  '科技信息研究所查新报告'
 ];

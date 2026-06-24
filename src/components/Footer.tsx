@@ -9,10 +9,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 lg:gap-8">
           <div className="md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-4 group">
-               <div className="w-8 h-8 bg-sg-blue rounded flex items-center justify-center">
-                 <span className="text-white font-bold text-lg leading-none tracking-tighter">AI</span>
-               </div>
-               <span className="font-bold text-xl tracking-tight text-sg-blue">AeroInspect</span>
+               <img src="./images/logo.jpg" alt="AeroInspect Tech" className="h-8 w-auto rounded object-cover" />
+               <span className="font-bold text-xl tracking-tight text-sg-blue">保定航鉴电力科技有限公司</span>
             </Link>
             <p className="text-sm mt-4 text-slate-600">
               机-巢-云一体化风机叶片智能巡检解决方案提供商，致力于通过视觉AI与无人机技术，实现风场自动化、智能化运维。
@@ -37,11 +35,11 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
                 <MapPin className="w-4 h-4 text-sg-blue shrink-0 mt-0.5" />
-                <span>吉林省长春市朝阳区丰顺街1118号</span>
+                <span>河北省保定市竞秀区</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-sg-blue shrink-0" />
-                <span>0431-85792397</span>
+                <span>400-xxx-xxxx</span>
               </li>
             </ul>
           </div>
@@ -56,9 +54,9 @@ export function Footer() {
         </div>
         
         <div className="border-t border-slate-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
-          <p>&copy; {new Date().getFullYear()} 国网吉林新能源智能巡检有限公司. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} 保定航鉴电力科技有限公司 (AeroInspect Tech). All rights reserved.</p>
           <div className="mt-4 md:mt-0">
-            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="hover:text-sg-blue transition-colors">吉ICP备XXXXXXX号</a>
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="hover:text-sg-blue transition-colors">冀ICP备XXXXXXX号</a>
           </div>
         </div>
       </div>
