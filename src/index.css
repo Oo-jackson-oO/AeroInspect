@@ -1,31 +1,175 @@
 @import "tailwindcss";
 
 @theme {
-  --color-sg-blue: #003B71;
-  --color-sg-blue-900: #002244;
-  --color-sg-blue-800: #002D59;
-  --color-sg-blue-700: #003B71;
-  --color-sg-blue-600: #004F96;
-  --color-sg-blue-500: #0063BB;
-  --color-sg-blue-400: #1A7DD9;
-  --color-sg-blue-300: #4D9DE0;
-  --color-sg-green: #10B981;
-  --color-sg-green-light: #34D399;
+  /* === 品牌蓝色系（主色） === */
+  --color-brand-50: #EEF2F9;
+  --color-brand-100: #D0DAF0;
+  --color-brand-200: #A4B8E2;
+  --color-brand-300: #7896D4;
+  --color-brand-400: #4C74C6;
+  --color-brand-500: #0B3D91;
+  --color-brand-600: #09347A;
+  --color-brand-700: #072B63;
+  --color-brand-800: #05224C;
+  --color-brand-900: #031935;
+
+  /* === 强调色（橙色 CTA） === */
+  --color-accent-50: #FFF3E6;
+  --color-accent-100: #FFE0BF;
+  --color-accent-200: #FFC999;
+  --color-accent-300: #FFB273;
+  --color-accent-400: #FF9B4D;
+  --color-accent: #FF7D00;
+  --color-accent-600: #E67000;
+  --color-accent-700: #CC6400;
+  --color-accent-800: #B35800;
+  --color-accent-900: #994C00;
+
+  /* === 成功/绿色 === */
+  --color-success-50: #ECF8F3;
+  --color-success-100: #D0F0E3;
+  --color-success: #36B37E;
+  --color-success-600: #2EA06F;
+
+  /* === 表面/背景 === */
+  --color-surface: #F5F7FA;
+  --color-surface-white: #FFFFFF;
+
+  /* === 文字 === */
+  --color-text-primary: #1D2129;
+  --color-text-secondary: #86909C;
+  --color-text-disabled: #B0B6BF;
+
+  /* === 向后兼容 sg 前缀 === */
+  --color-sg-blue: #0B3D91;
+  --color-sg-blue-900: #031935;
+  --color-sg-green-light: #D0F0E3;
 }
 
-@layer utilities {
-  .custom-scrollbar::-webkit-scrollbar {
+/* === 全局动效变量 === */
+:root {
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: linear(
+    0, 0.009, 0.035 2.1%, 0.141, 0.281 6.7%, 0.723 12.9%, 0.938 16.7%, 1.017 19.2%,
+    1.067 21.9%, 1.045 25.7%, 0.983 29.9%, 0.953 33.5%, 0.946 36.9%, 0.958 40.8%,
+    0.979 46.4%, 0.997 52.5%, 1.004 58.8%, 1.004 65.5%, 0.999 75.3%, 1.001
+  );
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 350ms;
+}
+
+/* === 关键帧动画 === */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* === 全局焦点可见样式 === */
+*:focus-visible {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* === 平滑滚动 === */
+html {
+  scroll-behavior: smooth;
+}
+
+/* === 尊重用户动效偏好 === */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* === 工具类 === */
+@utility custom-scrollbar {
+  &::-webkit-scrollbar {
     height: 4px;
     width: 4px;
   }
-  .custom-scrollbar::-webkit-scrollbar-track {
+  &::-webkit-scrollbar-track {
     background: transparent;
   }
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background: #cbd5e1; /* slate-300 */
+  &::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
     border-radius: 4px;
   }
-  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background: #94a3b8; /* slate-400 */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
   }
+}
+
+/* === Ant Design 动效增强 === */
+.custom-form .ant-input,
+.custom-form .ant-input-affix-wrapper {
+  transition: border-color var(--duration-fast) var(--ease-out),
+              box-shadow var(--duration-fast) var(--ease-out) !important;
+}
+
+.custom-form .ant-btn {
+  transition: transform var(--duration-fast) var(--ease-out),
+              background-color var(--duration-fast) var(--ease-out),
+              box-shadow var(--duration-fast) var(--ease-out) !important;
+}
+
+.custom-form .ant-btn:active {
+  transform: scale(0.97) !important;
 }
