@@ -1,0 +1,98 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "AeroInspect Tech 保定航鉴电力科技有限公司" [ref=e7] [cursor=pointer]:
+        - /url: "#/"
+        - img "AeroInspect Tech" [ref=e8]
+        - generic [ref=e9]: 保定航鉴电力科技有限公司
+      - button "打开菜单" [ref=e535]:
+        - img [ref=e536]
+  - main [ref=e16]:
+    - generic [ref=e668]:
+      - generic [ref=e669]:
+        - img "乾安风电场" [ref=e671]
+        - heading "乾安风电场落地案例：无人化巡检助力风场运维效率提升75%" [level=1] [ref=e674]
+      - generic [ref=e677]:
+        - generic [ref=e678]:
+          - heading "项目背景" [level=2] [ref=e679]:
+            - img [ref=e681]
+            - text: 项目背景
+          - paragraph [ref=e684]: 乾安风电场位于吉林省松原市乾安县，装机容量49.5MW，共安装33台1.5MW风电机组，此前采用人工巡检模式，存在巡检效率低、缺陷发现滞后、作业安全风险高等问题，2025年引入本套风机叶片智能巡检系统。
+        - generic [ref=e685]:
+          - heading "项目实施内容" [level=2] [ref=e686]:
+            - img [ref=e688]
+            - text: 项目实施内容
+          - paragraph [ref=e690]: 2025年7月完成现场部署调试，针对风场10台三期风机开展巡检测试，完成无人机航线校准、算法模型适配、系统对接等工作，实现无人化巡检全流程落地。
+        - generic [ref=e691]:
+          - heading "项目成效" [level=2] [ref=e692]:
+            - img [ref=e694]
+            - text: 项目成效
+          - generic [ref=e697]:
+            - generic [ref=e698]:
+              - generic [ref=e700]: "1"
+              - paragraph [ref=e701]: 巡检效率提升75%，单台风机巡检时间从2小时缩短至0.5小时
+            - generic [ref=e702]:
+              - generic [ref=e704]: "2"
+              - paragraph [ref=e705]: 缺陷检出率达98%，较人工巡检提升40%，发现早期缺陷12处，避免潜在经济损失超200万元
+            - generic [ref=e706]:
+              - generic [ref=e708]: "3"
+              - paragraph [ref=e709]: 降低运维人员作业风险，无需人员登高作业，实现风机运行区域外安全巡检
+        - generic [ref=e710]:
+          - heading "现场展示" [level=2] [ref=e711]:
+            - img [ref=e713]
+            - text: 现场展示
+          - generic [ref=e716]:
+            - generic [ref=e717]:
+              - img "硬件安装图" [ref=e718]
+              - generic [ref=e720]: 硬件安装图
+            - generic [ref=e721]:
+              - img "无人机巡检作业图" [ref=e722]
+              - generic [ref=e724]: 无人机巡检作业图
+            - generic [ref=e725]:
+              - img "缺陷检测结果图" [ref=e726]
+              - generic [ref=e728]: 缺陷检测结果图
+            - generic [ref=e729]:
+              - img "系统后台操作图" [ref=e730]
+              - generic [ref=e732]: 系统后台操作图
+  - contentinfo [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - link "AeroInspect Tech 保定航鉴电力科技有限公司" [ref=e95] [cursor=pointer]:
+            - /url: "#/"
+            - img "AeroInspect Tech" [ref=e96]
+            - generic [ref=e97]: 保定航鉴电力科技有限公司
+          - paragraph [ref=e98]: 机-巢-云一体化风机叶片智能巡检解决方案提供商，致力于通过视觉AI与无人机技术，实现风场自动化、智能化运维。
+        - generic [ref=e99]:
+          - heading "快速链接" [level=3] [ref=e100]
+          - list [ref=e101]:
+            - listitem [ref=e102]:
+              - link "首页" [ref=e103] [cursor=pointer]:
+                - /url: "#/"
+            - listitem [ref=e104]:
+              - link "业务模式" [ref=e105] [cursor=pointer]:
+                - /url: "#/products"
+            - listitem [ref=e106]:
+              - link "成功案例" [ref=e107] [cursor=pointer]:
+                - /url: "#/cases"
+            - listitem [ref=e108]:
+              - link "关于我们" [ref=e109] [cursor=pointer]:
+                - /url: "#/about"
+        - generic [ref=e110]:
+          - heading "联系我们" [level=3] [ref=e111]
+          - list [ref=e112]:
+            - listitem [ref=e113]:
+              - img [ref=e114]
+              - generic [ref=e117]: 河北省保定市竞秀区
+            - listitem [ref=e118]:
+              - img [ref=e119]
+              - generic [ref=e121]: 400-xxx-xxxx
+        - generic [ref=e122]:
+          - heading "关注我们" [level=3] [ref=e123]
+          - generic [ref=e124]:
+            - img "微信公众号" [ref=e125]
+            - generic [ref=e126]: 二维码
+      - generic [ref=e127]:
+        - paragraph [ref=e128]: © 2026 保定航鉴电力科技有限公司 (AeroInspect Tech). All rights reserved.
+        - link "冀ICP备XXXXXXX号" [ref=e130] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn/

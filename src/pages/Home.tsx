@@ -47,7 +47,7 @@ export function Home() {
           style={{ y: y1 }}
         >
           <img
-            src="./images/hero-bg.jpg"
+            src="./images/hero-bg.webp"
             alt="风机叶片无人机巡检"
             className="w-full h-full object-cover"
           />
@@ -240,9 +240,9 @@ export function Home() {
           </motion.h2>
           <div className="flex flex-wrap justify-center items-center gap-16 md:gap-40">
             {[
-              { src: './images/partner-1.png', alt: '国家电网', className: 'h-32 md:h-48' },
-              { src: './images/partner-2.png', alt: '大疆创新', className: 'h-24 md:h-36' },
-              { src: './images/partner-3.png', alt: '英伟达', className: 'h-32 md:h-48' },
+              { src: './images/partner-1.webp', alt: '国家电网', className: 'h-32 md:h-48' },
+              { src: './images/partner-2.webp', alt: '大疆创新', className: 'h-24 md:h-36' },
+              { src: './images/partner-3.webp', alt: '英伟达', className: 'h-32 md:h-48' },
             ].map((partner, i) => (
               <motion.img
                 key={partner.alt}

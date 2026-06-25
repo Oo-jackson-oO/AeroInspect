@@ -11,7 +11,7 @@ export function Cases() {
       {/* Banner */}
       <section className="relative min-h-[250px] md:min-h-[450px] overflow-hidden flex items-center justify-center">
         <motion.div className="absolute inset-0 z-0 h-[130%] -top-[15%]" style={{ y: y1 }}>
-          <img src="./images/case-banner.jpg" alt="乾安风电场" className="w-full h-full object-cover" />
+          <img src="./images/case-banner.webp" alt="乾安风电场" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-brand-500 opacity-40" />
         </motion.div>
 
@@ -141,10 +141,10 @@ export function Cases() {
               </h2>
               <div className="grid grid-cols-1 gap-6 w-full">
                 {[
-                  { title: '硬件安装图', img: './images/case-photo-1.jpg' },
-                  { title: '无人机巡检作业图', img: './images/case-photo-2.jpg' },
-                  { title: '缺陷检测结果图', img: './images/case-photo-3.jpg' },
-                  { title: '系统后台操作图', img: './images/case-photo-4.jpg' },
+                  { title: '硬件安装图', img: './images/case-photo-1.webp' },
+                  { title: '无人机巡检作业图', img: './images/case-photo-2.webp' },
+                  { title: '缺陷检测结果图', img: './images/case-photo-3.webp' },
+                  { title: '系统后台操作图', img: './images/case-photo-4.webp' },
                 ].map((photo, i) => (
                   <motion.div
                     key={i}

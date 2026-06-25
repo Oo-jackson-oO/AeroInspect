@@ -1,0 +1,140 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "AeroInspect Tech 保定航鉴电力科技有限公司" [ref=e7] [cursor=pointer]:
+        - /url: "#/"
+        - img "AeroInspect Tech" [ref=e8]
+        - generic [ref=e9]: 保定航鉴电力科技有限公司
+      - generic [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: "#/"
+        - link "业务模式" [ref=e12] [cursor=pointer]:
+          - /url: "#/products"
+        - link "成功案例" [ref=e13] [cursor=pointer]:
+          - /url: "#/cases"
+        - link "关于我们" [ref=e14] [cursor=pointer]:
+          - /url: "#/about"
+        - link "申请演示" [ref=e15] [cursor=pointer]:
+          - /url: "#/about"
+  - main [ref=e16]:
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - img "关于我们" [ref=e336]
+        - generic [ref=e338]:
+          - heading "关于我们" [level=1] [ref=e339]
+          - paragraph [ref=e340]: 我们是致力于新能源智能化运维体系建设的先锋力量。
+      - generic [ref=e341]:
+        - generic [ref=e342]:
+          - generic [ref=e343]:
+            - heading "公司简介" [level=2] [ref=e344]
+            - paragraph [ref=e345]: 保定航鉴电力科技有限公司 (AeroInspect Tech) 是一家专注于新能源场站智能运维技术研发与落地的科技企业。
+            - paragraph [ref=e346]: 依托深厚的技术资源，我们专注于风电机组智能巡检、缺陷检测、多模态算法平台建设及成套智能软硬件的研发与应用。相关核心成果已通过多项专业认证，在全国多个核心风电场集群实现深度落地应用，全方位提升风电运维效率并大幅降低作业成本，为行业的高质量发展赋能。
+          - generic [ref=e347]:
+            - img "公司办公大楼" [ref=e348]
+            - generic [ref=e350]: 办公楼/团队照片
+        - generic [ref=e351]:
+          - heading "核心团队" [level=2] [ref=e353]:
+            - img [ref=e355]
+            - text: 核心团队
+          - paragraph [ref=e361]: 公司拥有54人专业研发团队，专业覆盖电气工程、通信工程、计算机视觉、无人机控制等领域。成员平均拥有10年以上新能源运维或技术研发经验，先后承担多项国网公司级科技项目，获得省部级科技奖项多项。
+        - generic [ref=e362]:
+          - heading "资质荣誉" [level=2] [ref=e364]:
+            - img [ref=e366]
+            - text: 资质荣誉
+          - generic [ref=e369]:
+            - generic [ref=e370]:
+              - img [ref=e372]
+              - generic [ref=e375]: 2项发明专利受理
+            - generic [ref=e376]:
+              - img [ref=e378]
+              - generic [ref=e381]: 2篇EI检索论文发表
+            - generic [ref=e382]:
+              - img [ref=e384]
+              - generic [ref=e387]: 某权威机构系统合格检测报告
+            - generic [ref=e388]:
+              - img [ref=e390]
+              - generic [ref=e393]: 航鉴电力典型风电场用户使用报告
+            - generic [ref=e394]:
+              - img [ref=e396]
+              - generic [ref=e399]: 科技信息研究所查新报告
+        - generic [ref=e401]:
+          - generic [ref=e404]:
+            - heading "联系我们" [level=2] [ref=e405]
+            - generic [ref=e406]:
+              - generic [ref=e407]:
+                - img [ref=e408]
+                - generic [ref=e411]:
+                  - generic [ref=e412]: 公司地址
+                  - generic [ref=e413]: 河北省保定市竞秀区
+              - generic [ref=e414]:
+                - img [ref=e415]
+                - generic [ref=e417]:
+                  - generic [ref=e418]: 联系电话
+                  - generic [ref=e419]: 400-xxx-xxxx
+          - generic [ref=e420]:
+            - heading "申请演示 / 业务咨询" [level=3] [ref=e421]
+            - generic [ref=e422]:
+              - generic [ref=e423]:
+                - generic [ref=e425]:
+                  - generic "姓名" [ref=e427]: "* 姓名"
+                  - textbox "* 姓名" [ref=e431]:
+                    - /placeholder: 输入您的姓名
+                - generic [ref=e433]:
+                  - generic "联系电话" [ref=e435]: "* 联系电话"
+                  - textbox "* 联系电话" [ref=e439]:
+                    - /placeholder: 输入电话号码
+              - generic [ref=e441]:
+                - generic "所属公司" [ref=e443]: "* 所属公司"
+                - textbox "* 所属公司" [ref=e447]:
+                  - /placeholder: 输入公司名称
+              - generic [ref=e449]:
+                - generic "需求描述" [ref=e451]
+                - generic [ref=e455]:
+                  - textbox "需求描述" [ref=e456]:
+                    - /placeholder: 请简要描述您的业务需求...
+                  - generic:
+                    - generic: 0 / 500
+              - button "提交信息" [ref=e462] [cursor=pointer]:
+                - generic [ref=e463]: 提交信息
+  - contentinfo [ref=e94]:
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - link "AeroInspect Tech 保定航鉴电力科技有限公司" [ref=e98] [cursor=pointer]:
+            - /url: "#/"
+            - img "AeroInspect Tech" [ref=e99]
+            - generic [ref=e100]: 保定航鉴电力科技有限公司
+          - paragraph [ref=e101]: 机-巢-云一体化风机叶片智能巡检解决方案提供商，致力于通过视觉AI与无人机技术，实现风场自动化、智能化运维。
+        - generic [ref=e102]:
+          - heading "快速链接" [level=3] [ref=e103]
+          - list [ref=e104]:
+            - listitem [ref=e105]:
+              - link "首页" [ref=e106] [cursor=pointer]:
+                - /url: "#/"
+            - listitem [ref=e107]:
+              - link "业务模式" [ref=e108] [cursor=pointer]:
+                - /url: "#/products"
+            - listitem [ref=e109]:
+              - link "成功案例" [ref=e110] [cursor=pointer]:
+                - /url: "#/cases"
+            - listitem [ref=e111]:
+              - link "关于我们" [ref=e112] [cursor=pointer]:
+                - /url: "#/about"
+        - generic [ref=e113]:
+          - heading "联系我们" [level=3] [ref=e114]
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - img [ref=e117]
+              - generic [ref=e120]: 河北省保定市竞秀区
+            - listitem [ref=e121]:
+              - img [ref=e122]
+              - generic [ref=e124]: 400-xxx-xxxx
+        - generic [ref=e125]:
+          - heading "关注我们" [level=3] [ref=e126]
+          - generic [ref=e127]:
+            - img "微信公众号" [ref=e128]
+            - generic [ref=e129]: 二维码
+      - generic [ref=e130]:
+        - paragraph [ref=e131]: © 2026 保定航鉴电力科技有限公司 (AeroInspect Tech). All rights reserved.
+        - link "冀ICP备XXXXXXX号" [ref=e133] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn/

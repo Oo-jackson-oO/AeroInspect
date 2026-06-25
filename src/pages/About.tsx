@@ -37,7 +37,7 @@ export function About() {
       {/* Banner */}
       <section className="relative min-h-[250px] md:min-h-[450px] overflow-hidden flex items-center justify-center">
         <motion.div className="absolute inset-0 z-0 h-[130%] -top-[15%]" style={{ y: y1 }}>
-          <img src="./images/about-banner.jpg" alt="关于航鉴电力" className="w-full h-full object-cover" />
+          <img src="./images/about-banner.webp" alt="关于航鉴电力" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-brand-500 opacity-40" />
         </motion.div>
 
@@ -90,20 +90,13 @@ export function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.15, duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-            className="h-64 lg:h-full bg-surface rounded-xl flex items-center justify-center border border-gray-100 relative overflow-hidden group"
+            className="h-64 lg:h-full bg-gradient-to-br from-brand-50 to-brand-100 rounded-xl flex items-center justify-center border border-gray-100"
           >
-            <motion.img
-              src="./images/about-company.jpg"
-              alt="公司办公大楼"
-              className="absolute inset-0 w-full h-full object-cover"
-              loading="lazy"
-              whileHover={{ scale: 1.06 }}
-              transition={{ duration: 0.5 }}
-            />
-            <div className="absolute inset-0 flex items-center justify-center bg-white/20 group-hover:bg-white/10 transition-colors duration-300">
-              <span className="bg-white/90 px-4 py-2 rounded shadow-sm text-sm font-medium text-text-secondary">
-                办公楼/团队照片
-              </span>
+            <div className="flex flex-col items-center gap-3 text-text-secondary">
+              <div className="w-16 h-16 rounded-full bg-brand-100/50 flex items-center justify-center">
+                <MapPin className="w-8 h-8 text-brand-300" />
+              </div>
+              <span className="text-sm font-medium">办公楼/团队照片</span>
             </div>
           </motion.div>
         </motion.section>

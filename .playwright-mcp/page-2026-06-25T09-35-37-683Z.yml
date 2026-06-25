@@ -1,0 +1,147 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "AeroInspect Tech 保定航鉴电力科技有限公司" [ref=e7] [cursor=pointer]:
+        - /url: "#/"
+        - img "AeroInspect Tech" [ref=e8]
+        - generic [ref=e9]: 保定航鉴电力科技有限公司
+      - button "打开菜单" [ref=e535]:
+        - img [ref=e536]
+  - main [ref=e16]:
+    - generic [ref=e537]:
+      - generic [ref=e538]:
+        - img "风机实拍" [ref=e540]
+        - generic [ref=e542]:
+          - heading "全场景风机巡检商业化合作方案" [level=1] [ref=e543]
+          - paragraph [ref=e544]: 覆盖硬件采购、代运维服务、技术授权三类合作模式，匹配不同风场/企业需求
+      - generic [ref=e545]:
+        - generic [ref=e546] [cursor=pointer]:
+          - generic [ref=e547]:
+            - generic [ref=e548]:
+              - img [ref=e550]
+              - heading "设备销售·一站式交付" [level=3] [ref=e555]
+            - button "详情" [ref=e556]:
+              - generic [ref=e557]: 详情
+              - img [ref=e558]
+          - generic [ref=e562]:
+            - generic [ref=e563]:
+              - generic [ref=e564]:
+                - generic [ref=e565]:
+                  - heading "硬件套装" [level=4] [ref=e566]: 硬件套装
+                  - paragraph [ref=e568]: 包含大疆M3TD双光无人机1台、大疆机场2自动机巢1套、天途云盒边缘计算节点1台、NVIDIA Jetson AGX Orin算力板1块，支持-20℃~50℃极端环境作业，IP55防尘防水
+                - generic [ref=e569]:
+                  - heading "软件平台" [level=4] [ref=e570]: 软件平台
+                  - paragraph [ref=e572]: 交付全套"机-巢-云"一体化运维管理系统，包含风机资产管理、巡检任务调度、缺陷数据可视化、巡检报告自动生成4大核心功能模块
+                - generic [ref=e573]:
+                  - heading "现场服务" [level=4] [ref=e574]: 现场服务
+                  - paragraph [ref=e576]: 包含7天现场部署调试、3天运维人员操作培训、1年免费硬件质保+软件迭代服务
+              - generic [ref=e577]:
+                - generic [ref=e578]:
+                  - generic [ref=e579]: 叶尖定位精度(<m)
+                  - generic [ref=e581]: <0.0
+                - generic [ref=e582]:
+                  - generic [ref=e583]: 缺陷检测准确率(%)
+                  - generic [ref=e584]: "0.0"
+                - generic [ref=e585]:
+                  - generic [ref=e586]: 单台巡检耗时(分钟)
+                  - generic [ref=e587]: "0"
+                - generic [ref=e588]:
+                  - generic [ref=e589]: 支持缺陷类型(类)
+                  - generic [ref=e590]: "0"
+            - generic [ref=e591]:
+              - img "设备销售·一站式交付" [ref=e593]
+              - button "获取定制报价" [ref=e594]
+        - generic [ref=e595] [cursor=pointer]:
+          - generic [ref=e596]:
+            - generic [ref=e597]:
+              - img [ref=e599]
+              - heading "巡检服务·全托管代运维" [level=3] [ref=e603]
+            - button "详情" [ref=e604]:
+              - generic [ref=e605]: 详情
+              - img [ref=e606]
+          - generic [ref=e609]:
+            - generic [ref=e610]:
+              - generic [ref=e611]:
+                - generic [ref=e612]:
+                  - heading "基础服务" [level=4] [ref=e613]: 基础服务
+                  - paragraph [ref=e615]: 按季度完成所有签约风机的全量巡检，每台风机全年覆盖4次完整巡检，每次巡检后3个工作日内交付标准化缺陷检测报告
+                - generic [ref=e616]:
+                  - heading "增值服务" [level=4] [ref=e617]: 增值服务
+                  - paragraph [ref=e619]: 提供缺陷演化趋势预警、运维方案建议、年度风机健康状态评估报告，7*24小时应急巡检响应
+                - generic [ref=e620]:
+                  - heading "配套权益" [level=4] [ref=e621]: 配套权益
+                  - paragraph [ref=e623]: 专属运维对接人、巡检数据永久云端存储、免费享受算法模型迭代升级
+              - generic [ref=e624]:
+                - generic [ref=e625]:
+                  - generic [ref=e626]: 缺陷检出率(%)
+                  - generic [ref=e627]: "0"
+                - generic [ref=e628]:
+                  - generic [ref=e629]: 运维成本降低(%)
+                  - generic [ref=e630]: "0"
+                - generic [ref=e631]:
+                  - generic [ref=e632]: 非计划停机减少(%)
+                  - generic [ref=e633]: "0"
+            - generic [ref=e634]:
+              - img "巡检服务·全托管代运维" [ref=e636]
+              - button "咨询服务报价" [ref=e637]
+        - generic [ref=e638] [cursor=pointer]:
+          - generic [ref=e639]:
+            - generic [ref=e640]:
+              - img [ref=e642]
+              - heading "技术授权·能力开放赋能" [level=3] [ref=e647]
+            - button "详情" [ref=e648]:
+              - generic [ref=e649]: 详情
+              - img [ref=e650]
+          - generic [ref=e653]:
+            - generic [ref=e655]:
+              - generic [ref=e656]:
+                - heading "授权接口清单" [level=4] [ref=e657]: 授权接口清单
+                - paragraph [ref=e659]: 叶尖定位接口（误差<0.8m）、缺陷检测接口（支持8类，准确率94.5%）、路径规划接口（平行式/圆周式）、变化检测接口（提前3-6个月预警）
+              - generic [ref=e660]:
+                - heading "授权模式说明" [level=4] [ref=e661]: 授权模式说明
+                - paragraph [ref=e663]: 按调用量付费（适合中小规模运维企业），年度买断授权（适合大型设备厂商/风场运营商，无限量调用，支持定制化开发）
+            - generic [ref=e664]:
+              - img "技术授权·能力开放赋能" [ref=e666]
+              - button "申请测试密钥" [ref=e667]
+  - contentinfo [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - link "AeroInspect Tech 保定航鉴电力科技有限公司" [ref=e95] [cursor=pointer]:
+            - /url: "#/"
+            - img "AeroInspect Tech" [ref=e96]
+            - generic [ref=e97]: 保定航鉴电力科技有限公司
+          - paragraph [ref=e98]: 机-巢-云一体化风机叶片智能巡检解决方案提供商，致力于通过视觉AI与无人机技术，实现风场自动化、智能化运维。
+        - generic [ref=e99]:
+          - heading "快速链接" [level=3] [ref=e100]
+          - list [ref=e101]:
+            - listitem [ref=e102]:
+              - link "首页" [ref=e103] [cursor=pointer]:
+                - /url: "#/"
+            - listitem [ref=e104]:
+              - link "业务模式" [ref=e105] [cursor=pointer]:
+                - /url: "#/products"
+            - listitem [ref=e106]:
+              - link "成功案例" [ref=e107] [cursor=pointer]:
+                - /url: "#/cases"
+            - listitem [ref=e108]:
+              - link "关于我们" [ref=e109] [cursor=pointer]:
+                - /url: "#/about"
+        - generic [ref=e110]:
+          - heading "联系我们" [level=3] [ref=e111]
+          - list [ref=e112]:
+            - listitem [ref=e113]:
+              - img [ref=e114]
+              - generic [ref=e117]: 河北省保定市竞秀区
+            - listitem [ref=e118]:
+              - img [ref=e119]
+              - generic [ref=e121]: 400-xxx-xxxx
+        - generic [ref=e122]:
+          - heading "关注我们" [level=3] [ref=e123]
+          - generic [ref=e124]:
+            - img "微信公众号" [ref=e125]
+            - generic [ref=e126]: 二维码
+      - generic [ref=e127]:
+        - paragraph [ref=e128]: © 2026 保定航鉴电力科技有限公司 (AeroInspect Tech). All rights reserved.
+        - link "冀ICP备XXXXXXX号" [ref=e130] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn/

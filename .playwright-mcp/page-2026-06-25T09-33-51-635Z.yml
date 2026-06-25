@@ -1,0 +1,123 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "AeroInspect Tech 保定航鉴电力科技有限公司" [ref=e7] [cursor=pointer]:
+        - /url: "#/"
+        - img "AeroInspect Tech" [ref=e8]
+        - generic [ref=e9]: 保定航鉴电力科技有限公司
+      - generic [ref=e10]:
+        - link "首页" [ref=e11] [cursor=pointer]:
+          - /url: "#/"
+        - link "业务模式" [ref=e12] [cursor=pointer]:
+          - /url: "#/products"
+        - link "成功案例" [ref=e13] [cursor=pointer]:
+          - /url: "#/cases"
+        - link "关于我们" [ref=e14] [cursor=pointer]:
+          - /url: "#/about"
+        - link "申请演示" [ref=e15] [cursor=pointer]:
+          - /url: "#/about"
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - img "风机叶片无人机巡检" [ref=e20]
+        - generic [ref=e22]:
+          - heading "机-巢-云一体化风机叶片智能巡检解决方案" [level=1] [ref=e23]
+          - paragraph [ref=e24]: 亚米级定位精度、94.5%缺陷识别准确率，大幅降低风场运维成本
+          - generic [ref=e25]:
+            - link "了解产品" [ref=e26] [cursor=pointer]:
+              - /url: "#/products"
+            - link "申请演示" [ref=e27] [cursor=pointer]:
+              - /url: "#/about"
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - heading "项目优势" [level=2] [ref=e33]
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - img [ref=e37]
+              - generic [ref=e40]:
+                - heading "亚米级叶尖定位" [level=3] [ref=e41]
+                - paragraph [ref=e42]: 定位误差<0.8m，适配大中小各类风机，可抵御8级阵风干扰。
+            - generic [ref=e43]:
+              - img [ref=e44]
+              - generic [ref=e47]:
+                - heading "双模态缺陷检测" [level=3] [ref=e48]
+                - paragraph [ref=e49]: 支持8类可见光缺陷+红外热斑缺陷识别，综合准确率达94.5%。
+            - generic [ref=e50]:
+              - img [ref=e51]
+              - generic [ref=e54]:
+                - heading "全流程无人化" [level=3] [ref=e55]
+                - paragraph [ref=e56]: 巡检效率较人工提升75%，单台风机巡检仅需0.5小时。
+            - generic [ref=e57]:
+              - img [ref=e58]
+              - generic [ref=e61]:
+                - heading "缺陷演化预警" [level=3] [ref=e62]
+                - paragraph [ref=e63]: 多时相图像跨周期对比，可提前3-6个月预警缺陷扩展风险。
+        - generic [ref=e64]:
+          - heading "乾安风电场落地" [level=2] [ref=e66]
+          - generic [ref=e69]:
+            - paragraph [ref=e70]: 本方案已落地吉林乾安风电场，针对10台三期风机完成部署测试，累计采集双光巡检图像1000余张，缺陷识别准确率达98%，帮助风场降低运维成本30%，减少非计划停机时长20%，覆盖风机127台。
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - generic [ref=e73]: 10台
+                - generic [ref=e74]: 覆盖风机数
+              - generic [ref=e75]:
+                - generic [ref=e76]: 120km
+                - generic [ref=e77]: 累计巡检里程
+              - generic [ref=e78]:
+                - generic [ref=e79]: 98%
+                - generic [ref=e80]: 缺陷检出率
+              - generic [ref=e81]:
+                - generic [ref=e82]: 30%
+                - generic [ref=e83]: 降低运维成本
+            - link "查看完整案例分析" [ref=e84] [cursor=pointer]:
+              - /url: "#/cases"
+              - text: 查看完整案例分析
+              - img [ref=e85]
+      - generic [ref=e88]:
+        - heading "全球合作伙伴" [level=2] [ref=e89]
+        - generic [ref=e90]:
+          - img "国家电网"
+          - img "大疆创新"
+          - img "英伟达"
+  - contentinfo [ref=e91]:
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - link "AeroInspect Tech 保定航鉴电力科技有限公司" [ref=e95] [cursor=pointer]:
+            - /url: "#/"
+            - img "AeroInspect Tech" [ref=e96]
+            - generic [ref=e97]: 保定航鉴电力科技有限公司
+          - paragraph [ref=e98]: 机-巢-云一体化风机叶片智能巡检解决方案提供商，致力于通过视觉AI与无人机技术，实现风场自动化、智能化运维。
+        - generic [ref=e99]:
+          - heading "快速链接" [level=3] [ref=e100]
+          - list [ref=e101]:
+            - listitem [ref=e102]:
+              - link "首页" [ref=e103] [cursor=pointer]:
+                - /url: "#/"
+            - listitem [ref=e104]:
+              - link "业务模式" [ref=e105] [cursor=pointer]:
+                - /url: "#/products"
+            - listitem [ref=e106]:
+              - link "成功案例" [ref=e107] [cursor=pointer]:
+                - /url: "#/cases"
+            - listitem [ref=e108]:
+              - link "关于我们" [ref=e109] [cursor=pointer]:
+                - /url: "#/about"
+        - generic [ref=e110]:
+          - heading "联系我们" [level=3] [ref=e111]
+          - list [ref=e112]:
+            - listitem [ref=e113]:
+              - img [ref=e114]
+              - generic [ref=e117]: 河北省保定市竞秀区
+            - listitem [ref=e118]:
+              - img [ref=e119]
+              - generic [ref=e121]: 400-xxx-xxxx
+        - generic [ref=e122]:
+          - heading "关注我们" [level=3] [ref=e123]
+          - generic [ref=e124]:
+            - img "微信公众号" [ref=e125]
+            - generic [ref=e126]: 二维码
+      - generic [ref=e127]:
+        - paragraph [ref=e128]: © 2026 保定航鉴电力科技有限公司 (AeroInspect Tech). All rights reserved.
+        - link "冀ICP备XXXXXXX号" [ref=e130] [cursor=pointer]:
+          - /url: https://beian.miit.gov.cn/

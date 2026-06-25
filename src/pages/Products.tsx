@@ -57,7 +57,7 @@ const models = [
       { label: '单台巡检耗时(分钟)', value: 17 },
       { label: '支持缺陷类型(类)', value: 8 },
     ],
-    image: './images/service-equipment-full.jpg',
+    image: './images/service-equipment-full.webp',
   },
   {
     id: 'inspection',
@@ -75,7 +75,7 @@ const models = [
       { label: '运维成本降低(%)', value: 30 },
       { label: '非计划停机减少(%)', value: 20 },
     ],
-    image: './images/service-inspection-full.jpg',
+    image: './images/service-inspection-full.webp',
   },
   {
     id: 'licensing',
@@ -88,7 +88,7 @@ const models = [
       { title: '授权模式说明', desc: '按调用量付费（适合中小规模运维企业），年度买断授权（适合大型设备厂商/风场运营商，无限量调用，支持定制化开发）' },
     ],
     stats: [],
-    image: './images/service-licensing-full.jpg',
+    image: './images/service-licensing-full.webp',
   },
 ];
 
@@ -102,7 +102,7 @@ export function Products() {
       {/* Banner */}
       <section className="relative min-h-[250px] md:min-h-[450px] overflow-hidden flex items-center justify-center">
         <motion.div className="absolute inset-0 z-0 h-[130%] -top-[15%]" style={{ y: y1 }}>
-          <img src="./images/products-banner-bg.jpg" alt="风机实拍" className="w-full h-full object-cover" />
+          <img src="./images/products-banner-bg.webp" alt="风机实拍" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-brand-500 opacity-40" />
         </motion.div>
 
